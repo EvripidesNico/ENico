@@ -1,0 +1,292 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri May  6 17:52:15 2022
+# Process ID: 11552
+# Current directory: C:/Users/Bulls/Desktop/lab_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5248 C:\Users\Bulls\Desktop\lab_4\lab_4.xpr
+# Log file: C:/Users/Bulls/Desktop/lab_4/vivado.log
+# Journal file: C:/Users/Bulls/Desktop/lab_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Bulls/Desktop/lab_4/lab_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testTC' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testTC_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Edge_detect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Edge_detect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Ring_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ring_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/new/SevSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevSeg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Toplevel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Toplevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/countUD16L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countUD16L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/countUD4L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countUD4L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/Desktop/lab4_clks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab4_clks
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-311] analyzing module FTCE_MXILINX_clkcntrl4
+INFO: [VRFC 10-311] analyzing module CB4CE_MXILINX_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/new/m8_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m8_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sim_1/imports/Desktop/testTC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testTC
+INFO: [VRFC 10-311] analyzing module show_7segDisplay
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+"xelab -wto d20eacd95d0d4eaba4c9b6c0f1ae1350 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testTC_behav xil_defaultlib.testTC xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d20eacd95d0d4eaba4c9b6c0f1ae1350 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testTC_behav xil_defaultlib.testTC xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.XOR2
+Compiling module unisims_ver.FDCE_default
+Compiling module xil_defaultlib.FTCE_MXILINX_clkcntrl4
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.VCC
+Compiling module xil_defaultlib.CB4CE_MXILINX_clkcntrl4
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.clkcntrl4
+Compiling module unisims_ver.STARTUPE2
+Compiling module xil_defaultlib.lab4_clks
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.Edge_detect
+Compiling module xil_defaultlib.countUD4L
+Compiling module xil_defaultlib.countUD16L
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.Ring_Counter
+Compiling module xil_defaultlib.Selector
+Compiling module xil_defaultlib.m8_1
+Compiling module xil_defaultlib.SevSeg
+Compiling module xil_defaultlib.Toplevel
+Compiling module xil_defaultlib.show_7segDisplay
+Compiling module xil_defaultlib.testTC
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testTC_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim/xsim.dir/testTC_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim/xsim.dir/testTC_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri May  6 19:07:06 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri May  6 19:07:06 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 813.270 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testTC_behav -key {Behavioral:sim_1:Functional:testTC} -tclbatch {testTC.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testTC.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testTC_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 870.512 ; gain = 57.242
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:01:45 . Memory (MB): peak = 871.340 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testTC' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testTC_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Edge_detect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Edge_detect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Ring_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ring_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/new/SevSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevSeg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Toplevel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Toplevel
+ERROR: [VRFC 10-2989] 'UTCout' is not declared [C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Toplevel.v:78]
+ERROR: [VRFC 10-2989] 'DTCout' is not declared [C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Toplevel.v:79]
+ERROR: [VRFC 10-2865] module 'Toplevel' ignored due to previous errors [C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Toplevel.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testTC' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testTC_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Edge_detect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Edge_detect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Ring_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ring_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/new/SevSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevSeg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Toplevel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Toplevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/countUD16L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countUD16L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/countUD4L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countUD4L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/Desktop/lab4_clks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab4_clks
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-311] analyzing module FTCE_MXILINX_clkcntrl4
+INFO: [VRFC 10-311] analyzing module CB4CE_MXILINX_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/new/m8_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m8_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sim_1/imports/Desktop/testTC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testTC
+INFO: [VRFC 10-311] analyzing module show_7segDisplay
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+"xelab -wto d20eacd95d0d4eaba4c9b6c0f1ae1350 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testTC_behav xil_defaultlib.testTC xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d20eacd95d0d4eaba4c9b6c0f1ae1350 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testTC_behav xil_defaultlib.testTC xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.XOR2
+Compiling module unisims_ver.FDCE_default
+Compiling module xil_defaultlib.FTCE_MXILINX_clkcntrl4
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.VCC
+Compiling module xil_defaultlib.CB4CE_MXILINX_clkcntrl4
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.clkcntrl4
+Compiling module unisims_ver.STARTUPE2
+Compiling module xil_defaultlib.lab4_clks
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.Edge_detect
+Compiling module xil_defaultlib.countUD4L
+Compiling module xil_defaultlib.countUD16L
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.Ring_Counter
+Compiling module xil_defaultlib.Selector
+Compiling module xil_defaultlib.m8_1
+Compiling module xil_defaultlib.SevSeg
+Compiling module xil_defaultlib.Toplevel
+Compiling module xil_defaultlib.show_7segDisplay
+Compiling module xil_defaultlib.testTC
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testTC_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testTC_behav -key {Behavioral:sim_1:Functional:testTC} -tclbatch {testTC.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testTC.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testTC_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 871.340 ; gain = 0.000
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/constrs_1/imports/Desktop/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/constrs_1/imports/Desktop/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1192.832 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1554.562 ; gain = 665.520
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  6 20:29:00 2022...

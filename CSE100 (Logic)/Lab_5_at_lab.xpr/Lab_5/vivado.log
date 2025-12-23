@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri May 20 16:33:43 2022
+# Process ID: 22800
+# Current directory: C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/Lab_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21316 C:\Users\Bulls\Desktop\Lab_5_at_lab.xpr\Lab_5\Lab_5.xpr
+# Log file: C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/Lab_5/vivado.log
+# Journal file: C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/Lab_5\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/Lab_5/Lab_5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.oopen_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:09 . Memory (MB): peak = 793.961 ; gain = 57.141uupdate_compile_order -fileset sources_1exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 20 16:52:26 2022...
+
+[Fri May 20 16:34:50 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/Lab_5/Lab_5.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACAA52A
+set_property PROGRAM.FILE {C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/Lab_5/Lab_5.runs/impl_1/topLevel.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/Lab_5/Lab_5.runs/impl_1/topLevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACAA52A
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 20 16:39:30 2022...

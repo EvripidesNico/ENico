@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr  7 17:43:13 2022
+# Process ID: 8912
+# Current directory: C:/Users/Bulls/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17284
+# Log file: C:/Users/Bulls/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Bulls/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source lab2_7Seg_testbench.tcl
+run 10 us
+restart
+close_sim
+launch_simulation
+source lab2_7Seg_testbench.tcl
+run 10 us
+archive_project C:/Users/Bulls/Desktop/Lab2_CSE100.xpr.zip -temp_dir C:/Users/Bulls/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-8912-MSI -force -include_local_ip_cache

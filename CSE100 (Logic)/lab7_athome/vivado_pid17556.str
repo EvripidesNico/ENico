@@ -1,0 +1,388 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 17556
+License: Customer
+
+Current time: 	Thu Jun 02 21:01:27 PDT 2022
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 70 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Bulls
+User home directory: C:/Users/Bulls
+User working directory: C:/Users/Bulls/Desktop/lab7_athome
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/Bulls/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/Bulls/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/Bulls/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Bulls/Desktop/lab7_athome/vivado.log
+Vivado journal file location: 	C:/Users/Bulls/Desktop/lab7_athome/vivado.jou
+Engine tmp dir: 	C:/Users/Bulls/Desktop/lab7_athome/.Xil/Vivado-17556-MSI
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 660 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Bulls\Desktop\lab7_athome\lab7_athome.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 71 MB (+71893kb) [00:00:12]
+// [Engine Memory]: 679 MB (+560986kb) [00:00:12]
+// [GUI Memory]: 88 MB (+14081kb) [00:00:12]
+// [GUI Memory]: 111 MB (+19481kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  2791 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 702 MB. GUI used memory: 54 MB. Current time: 6/2/22, 9:01:32 PM PDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 748.848 ; gain = 74.090 
+// Project name: lab7_athome; location: C:/Users/Bulls/Desktop/lab7_athome; part: xc7a35tcpg236-1
+// [Engine Memory]: 761 MB (+50051kb) [00:00:15]
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 48 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v)]", 1); // B (F, cl)
+// Elapsed time: 129 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), screen : vga_setup (vga_setup.v)]", 3); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), screen : vga_setup (vga_setup.v), Hori : countUD16L (countUD16L.v)]", 4); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), screen : vga_setup (vga_setup.v), Hori : countUD16L (countUD16L.v)]", 4); // B (F, cl)
+// Elapsed time: 39 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), screen : vga_setup (vga_setup.v), Hori : countUD16L (countUD16L.v)]", 4); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), screen : vga_setup (vga_setup.v), Hori : countUD16L (countUD16L.v)]", 4); // B (F, cl)
+// Elapsed time: 36 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), screen : vga_setup (vga_setup.v)]", 3); // B (F, cl)
+// Elapsed time: 110 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), frogga : frog (frog.v)]", 6); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), frogga : frog (frog.v)]", 6); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), frogga : frog (frog.v)]", 6); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), frogga : frog (frog.v)]", 6); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), cactta1 : cactus (cactus.v)]", 7); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), cactta1 : cactus (cactus.v)]", 7); // B (F, cl)
+// Elapsed time: 82 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), timer : countUD16L (countUD16L.v)]", 12); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), timer : countUD16L (countUD16L.v)]", 12); // B (F, cl)
+// Elapsed time: 34 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), blinkTimer : countUD16L (countUD16L.v)]", 13); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), blinkTimer : countUD16L (countUD16L.v)]", 13); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), display : SevSeg (SevSeg.v)]", 18); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v), display : SevSeg (SevSeg.v)]", 18); // B (F, cl)
+// Elapsed time: 159 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u (O, cl)
+// A (cl): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cl)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: toplevel 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,106 MB. GUI used memory: 54 MB. Current time: 6/2/22, 9:12:44 PM PDT
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,233 MB. GUI used memory: 54 MB. Current time: 6/2/22, 9:12:54 PM PDT
+// [Engine Memory]: 1,233 MB (+455300kb) [00:11:36]
+// [Engine Memory]: 1,378 MB (+87105kb) [00:11:36]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1824 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1186.449 ; gain = 135.930 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'toplevel' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/new/toplevel.v:23] INFO: [Synth 8-6157] synthesizing module 'lab7_clks' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/Desktop/lab7_clks.v:24] INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/Desktop/lab7_clks.v:57] INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:32856] 
+// Tcl Message: 	Parameter CAPACITANCE bound to: DONT_CARE - type: string  	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string  	Parameter IBUF_LOW_PWR bound to: TRUE - type: string  	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'IBUF' (1#1) [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:32856] INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:39813] 
+// Tcl Message: 	Parameter INIT bound to: 1'b0  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'XOR2' [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:81988] INFO: [Synth 8-6155] done synthesizing module 'XOR2' (5#1) [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:81988] INFO: [Synth 8-6157] synthesizing module 'FDCE' [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:13448] 
+// Tcl Message: 	Parameter INIT bound to: 1'b0  	Parameter IS_CLR_INVERTED bound to: 1'b0  	Parameter IS_C_INVERTED bound to: 1'b0  	Parameter IS_D_INVERTED bound to: 1'b0  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'clkcntrl4' (14#1) [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/Desktop/lab7_clks.v:190] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'STARTUPE2' [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:77870] 
+// Tcl Message: 	Parameter PROG_USR bound to: FALSE - type: string  	Parameter SIM_CCLK_FREQ bound to: 0.000000 - type: float  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'STARTUPE2' (15#1) [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:77870] INFO: [Synth 8-6155] done synthesizing module 'lab7_clks' (16#1) [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/Desktop/lab7_clks.v:24] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'vga_setup' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/new/vga_setup.v:23] INFO: [Synth 8-6157] synthesizing module 'countUD16L' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/new/countUD16L.v:23] INFO: [Synth 8-6157] synthesizing module 'countUD4L' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/new/countUD4L.v:23] INFO: [Synth 8-6157] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:13664] 
+// Tcl Message: 	Parameter INIT bound to: 1'b0  	Parameter IS_C_INVERTED bound to: 1'b0  	Parameter IS_D_INVERTED bound to: 1'b0  	Parameter IS_R_INVERTED bound to: 1'b0  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'FDRE' (17#1) [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:13664] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'countUD4L' (18#1) [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/new/countUD4L.v:23] INFO: [Synth 8-6155] done synthesizing module 'countUD16L' (19#1) [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/new/countUD16L.v:23] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'frog' (23#1) [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/new/frog.v:23] INFO: [Synth 8-6157] synthesizing module 'cactus' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/new/cactus.v:23] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'cactus' (24#1) [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/new/cactus.v:23] INFO: [Synth 8-6157] synthesizing module 'col' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/new/colision.v:23] INFO: [Synth 8-6155] done synthesizing module 'col' (25#1) [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/new/colision.v:23] INFO: [Synth 8-6157] synthesizing module 'SM' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/new/SM.v:23] INFO: [Synth 8-6157] synthesizing module 'FDRE__parameterized0' [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:13664] 
+// Tcl Message: 	Parameter INIT bound to: 1'b1  	Parameter IS_C_INVERTED bound to: 1'b0  	Parameter IS_D_INVERTED bound to: 1'b0  	Parameter IS_R_INVERTED bound to: 1'b0  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'FDRE__parameterized0' (25#1) [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:13664] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'SM' (26#1) [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/new/SM.v:23] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'RNG' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/new/RNG.v:23] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'RNG' (27#1) [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/new/RNG.v:23] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'Ring_Counter' [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/sources_1/imports/new/Ring_Counter.v:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1229.215 ; gain = 178.695 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1229.215 ; gain = 178.695 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1229.215 ; gain = 178.695 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-140] Inserted 21 IBUFs to IO ports without IO buffers. INFO: [Opt 31-141] Inserted 17 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/constrs_1/imports/Desktop/Basys3_Master.xdc] Finished Parsing XDC File [C:/Users/Bulls/Desktop/lab7_athome/lab7_athome.srcs/constrs_1/imports/Desktop/Basys3_Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1375.430 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 49 instances were transformed.   AND2 => LUT2: 12 instances   AND3 => LUT3: 6 instances   AND4 => LUT4: 6 instances   BUF => LUT1: 1 instances   XOR2 => LUT2: 24 instances  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1451.035 ; gain = 400.516 
+// Tcl Message: 74 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 1451.035 ; gain = 639.410 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// [GUI Memory]: 130 MB (+14325kb) [00:11:39]
+// Elapsed time: 18 seconds
+dismissDialog("Open Elaborated Design"); // by (cl)
+// [GUI Memory]: 137 MB (+601kb) [00:12:03]
+// Elapsed time: 31 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 530, 343, 1232, 587, false, false, false, true, false); // f (k, cl) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SchMenuAndMouse_CYCLE_SELECTION, "Cycle Selection"); // ah (an, cl)
+// [GUI Memory]: 149 MB (+5234kb) [00:15:16]
+// Elapsed time: 576 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 281, 393, 1232, 587, false, false, false, true, false); // f (k, cl) - Popup Trigger
+// Run Command: PAResourceCommand.PACommandNames_PRINT

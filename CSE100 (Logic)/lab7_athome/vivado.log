@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon May 22 23:46:30 2023
+# Process ID: 6920
+# Current directory: C:/Users/Bulls/OneDrive/Desktop/cse100 all labs/lab7_athome
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25036 C:\Users\Bulls\OneDrive\Desktop\cse100 all labs\lab7_athome\lab7_athome.xpr
+# Log file: C:/Users/Bulls/OneDrive/Desktop/cse100 all labs/lab7_athome/vivado.log
+# Journal file: C:/Users/Bulls/OneDrive/Desktop/cse100 all labs/lab7_athome\vivado.jou
+#-----------------------------------------------------------
+couldn't load library "librdi_vivadotasks.dll": invalid argument
+Could not load library 'librdi_vivadotasks' needed by 'vivado', please check installation.
+    while executing
+"error "$result\nCould not load library '$library' needed by '$feature', please check installation.""
+    (procedure "rdi::load_library" line 4)
+    invoked from within
+"rdi::load_library vivado librdi_vivadotasks"
+    (file "C:/Xilinx/Vivado/2019.1\lib\scripts\rdi\features\vivado\vivado.tcl" line 40)
+ERROR: [Common 17-217] Failed to load feature 'vivado'.
+INFO: [Common 17-206] Exiting Vivado at Mon May 22 23:46:31 2023...

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 12 15:52:05 2022
+# Process ID: 20552
+# Current directory: C:/Users/Bulls/Desktop/Lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16800 C:\Users\Bulls\Desktop\Lab6\Lab6.xpr
+# Log file: C:/Users/Bulls/Desktop/Lab6/vivado.log
+# Journal file: C:/Users/Bulls/Desktop/Lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Bulls/Desktop/Lab6/Lab6.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 764.461 ; gain = 67.734
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 12 15:53:12 2022...

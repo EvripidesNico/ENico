@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1648700082">
+  <File Type="BITSTR-BMM" Name="myAND_bd.bmm"/>
+  <File Type="ROUTE-PWR" Name="myAND_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="myAND.tcl"/>
+  <File Type="OPT-DCP" Name="myAND_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="myAND_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="myAND_reports.tcl"/>
+  <File Type="OPT-DRC" Name="myAND_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="myAND.hwdef"/>
+  <File Type="PWROPT-DCP" Name="myAND_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="myAND_placed.dcp"/>
+  <File Type="PLACE-IO" Name="myAND_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="myAND_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="myAND_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="myAND_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="myAND_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="myAND.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="myAND_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="myAND.bin"/>
+  <File Type="PHYSOPT-DCP" Name="myAND_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="myAND.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="myAND_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="myAND_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="myAND_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="myAND_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="myAND_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="myAND.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="myAND_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="myAND.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="myAND_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="myAND_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="myAND.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="myAND_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="myAND_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="myAND_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="myAND_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="myAND_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="myAND_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="myAND_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="myAND.vdi"/>
+  <File Type="ROUTE-CLK" Name="myAND_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="myAND_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="myAND_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="myAND_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="myAND_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="myAND_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="myAND.bit"/>
+  <File Type="BITSTR-RBT" Name="myAND.rbt"/>
+  <File Type="BITSTR-NKY" Name="myAND.nky"/>
+  <File Type="BG-DRC" Name="myAND.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/myAND.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Lab_1_at_home_test/Lab_1_at_home_test.srcs/sources_1/new/myAND.v"/>
+        <Attr Name="ImportTime" Val="1648699938"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="myAND"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1648689046"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

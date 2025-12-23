@@ -1,0 +1,16 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Bulls/Desktop/lab_4/lab_4.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sim_1/imports/Desktop/testTC.v,1651107711,verilog,,,,show_7segDisplay;testTC,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sim_1/new/testmain.v,1651107376,verilog,,,,testmain,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/Desktop/lab4_clks.v,1651104043,verilog,,C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/new/m8_1.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab4_clks,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/new/SevSeg.v,1650669908,verilog,,C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Toplevel.v,,SevSeg,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/new/m8_1.v,1649909544,verilog,,C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sim_1/imports/Desktop/testTC.v,,m8_1,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Edge_detect.v,1651198157,verilog,,C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Ring_Counter.v,,Edge_detect,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Ring_Counter.v,1651198390,verilog,,C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Selector.v,,Ring_Counter,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Selector.v,1651109639,verilog,,C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/new/SevSeg.v,,Selector,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/Toplevel.v,1651117350,verilog,,C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/countUD16L.v,,Toplevel,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/countUD16L.v,1651115903,verilog,,C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/countUD4L.v,,countUD16L,,,,,,,,
+C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/new/countUD4L.v,1651115123,verilog,,C:/Users/Bulls/Desktop/lab_4/lab_4.srcs/sources_1/imports/Desktop/lab4_clks.v,,countUD4L,,,,,,,,

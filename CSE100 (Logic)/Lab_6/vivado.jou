@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 12 15:52:05 2022
+# Process ID: 20552
+# Current directory: C:/Users/Bulls/Desktop/Lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16800 C:\Users\Bulls\Desktop\Lab6\Lab6.xpr
+# Log file: C:/Users/Bulls/Desktop/Lab6/vivado.log
+# Journal file: C:/Users/Bulls/Desktop/Lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Bulls/Desktop/Lab6/Lab6.xpr
+update_compile_order -fileset sources_1

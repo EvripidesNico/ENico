@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.srcs/sources_1/imports/Desktop/lab2_7seg_testbench.v,1649307447,verilog,,,,lab2_7Seg_testbench;show_7segDisplay,,,,,,,,
+C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.srcs/sources_1/new/FullAdder.v,1649306464,verilog,,C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.srcs/sources_1/new/SevSegConverter.v,,FullAdder,,,,,,,,
+C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.srcs/sources_1/new/SevSegConverter.v,1649387955,verilog,,C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.srcs/sources_1/new/bitAdder.v,,SevSegConverter,,,,,,,,
+C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.srcs/sources_1/new/bitAdder.v,1649378892,verilog,,C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.srcs/sources_1/new/mainAdder.v,,bitAdder,,,,,,,,
+C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.srcs/sources_1/new/mainAdder.v,1649306478,verilog,,C:/Users/Bulls/Desktop/Lab2_at_home/Lab2_at_home.srcs/sources_1/imports/Desktop/lab2_7seg_testbench.v,,mainAdder,,,,,,,,

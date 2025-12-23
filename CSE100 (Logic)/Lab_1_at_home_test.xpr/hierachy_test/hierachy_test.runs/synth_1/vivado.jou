@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Apr  6 17:19:06 2022
+# Process ID: 19692
+# Current directory: C:/Users/Bulls/Desktop/Lab_1_at_home_test.xpr/hierachy_test/hierachy_test.runs/synth_1
+# Command line: vivado.exe -log mux.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux.tcl
+# Log file: C:/Users/Bulls/Desktop/Lab_1_at_home_test.xpr/hierachy_test/hierachy_test.runs/synth_1/mux.vds
+# Journal file: C:/Users/Bulls/Desktop/Lab_1_at_home_test.xpr/hierachy_test/hierachy_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mux.tcl -notrace

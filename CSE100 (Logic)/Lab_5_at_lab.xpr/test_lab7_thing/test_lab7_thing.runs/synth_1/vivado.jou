@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon May 23 16:46:47 2022
+# Process ID: 22672
+# Current directory: C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/test_lab7_thing/test_lab7_thing.runs/synth_1
+# Command line: vivado.exe -log toppo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source toppo.tcl
+# Log file: C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/test_lab7_thing/test_lab7_thing.runs/synth_1/toppo.vds
+# Journal file: C:/Users/Bulls/Desktop/Lab_5_at_lab.xpr/test_lab7_thing/test_lab7_thing.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source toppo.tcl -notrace

@@ -1,0 +1,110 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed May 25 21:46:12 2022
+| Host         : MSI running 64-bit major release  (build 9200)
+| Command      : report_methodology -file toplevel_methodology_drc_routed.rpt -pb toplevel_methodology_drc_routed.pb -rpx toplevel_methodology_drc_routed.rpx
+| Design       : toplevel
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 15
++-----------+----------+-------------------+------------+
+| Rule      | Severity | Description       | Violations |
++-----------+----------+-------------------+------------+
+| TIMING-20 | Warning  | Non-clocked latch | 15         |
++-----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch cactta1/startV[-1111111105] cannot be properly analyzed as its control pin cactta1/startV[-1111111105]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch cactta1/startV[-1111111106] cannot be properly analyzed as its control pin cactta1/startV[-1111111106]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch cactta1/startV[-1111111107] cannot be properly analyzed as its control pin cactta1/startV[-1111111107]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch cactta1/startV[-1111111108] cannot be properly analyzed as its control pin cactta1/startV[-1111111108]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch cactta1/startV[-1111111109] cannot be properly analyzed as its control pin cactta1/startV[-1111111109]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch cactta2/startV[-1111111105] cannot be properly analyzed as its control pin cactta2/startV[-1111111105]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch cactta2/startV[-1111111106] cannot be properly analyzed as its control pin cactta2/startV[-1111111106]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch cactta2/startV[-1111111107] cannot be properly analyzed as its control pin cactta2/startV[-1111111107]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch cactta2/startV[-1111111108] cannot be properly analyzed as its control pin cactta2/startV[-1111111108]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch cactta2/startV[-1111111109] cannot be properly analyzed as its control pin cactta2/startV[-1111111109]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch cactta3/startV[-1111111105] cannot be properly analyzed as its control pin cactta3/startV[-1111111105]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch cactta3/startV[-1111111106] cannot be properly analyzed as its control pin cactta3/startV[-1111111106]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch cactta3/startV[-1111111107] cannot be properly analyzed as its control pin cactta3/startV[-1111111107]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch cactta3/startV[-1111111108] cannot be properly analyzed as its control pin cactta3/startV[-1111111108]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch cactta3/startV[-1111111109] cannot be properly analyzed as its control pin cactta3/startV[-1111111109]/G is not reached by a timing clock
+Related violations: <none>
+
+
